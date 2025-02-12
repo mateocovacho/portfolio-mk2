@@ -532,6 +532,11 @@ function App() {
               <h5 className='card-title'>Tech I use for building fast and scalable backend applications</h5>
               <p className='card-text'>These are, but not limited to, the tech I use for building fast, scalable and flexible backend applications</p>
               <div className='d-flex flex-wrap bd-highlight mb-0 align-items-end'>
+                {/* <div className='p-2 bd-highlight'> */}
+                {/*   <a target='_blank' href='https://www.dojoengine.org/' rel="noreferrer"> */}
+                {/*     <img className='my-auto tech-logo' height='50vw' src={dojoengine_logo} alt='dojoengine_logo' /> */}
+                {/*   </a> */}
+                {/* </div> */}
                 <div className='p-2 bd-highlight'>
                   <a target='_blank' href='https://www.rust-lang.org/' rel="noreferrer">
                     <img className='my-auto tech-logo' height='50vw' src={rust_logo} alt='rust_logo' />
@@ -540,6 +545,11 @@ function App() {
                 <div className='p-2 bd-highlight'>
                   <a target='_blank' href='https://nixos.org/' rel="noreferrer">
                     <img className='my-auto tech-logo' height='50vw' src={nix_logo} alt='nix_logo' />
+                  </a>
+                </div>
+                <div className='p-2 bd-highlight'>
+                  <a target='_blank' href='https://cairo-lang.org/' rel="noreferrer">
+                    <img className='my-auto tech-logo' height='50vw' src={cairo_lang_logo} alt='cairo_lang_logo' />
                   </a>
                 </div>
                 <div className='p-2 bd-highlight'>
@@ -595,16 +605,6 @@ function App() {
                 <div className='p-2 bd-highlight'>
                   <a target='_blank' href='https://vercel.com/' rel="noreferrer">
                     <img className='my-auto tech-logo' height='50vw' src={vercel_logo} alt='vercel_logo' />
-                  </a>
-                </div>
-                <div className='p-2 bd-highlight'>
-                  <a target='_blank' href='https://cairo-lang.org/' rel="noreferrer">
-                    <img className='my-auto tech-logo' height='50vw' src={cairo_lang_logo} alt='cairo_lang_logo' />
-                  </a>
-                </div>
-                <div className='p-2 bd-highlight'>
-                  <a target='_blank' href='https://www.dojoengine.org/' rel="noreferrer">
-                    <img className='my-auto tech-logo' height='50vw' src={dojoengine_logo} alt='dojoengine_logo' />
                   </a>
                 </div>
               </div>
