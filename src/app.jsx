@@ -259,7 +259,7 @@ function App() {
       body: "LeakShield is a tool that helps content creators and managers protect their content and revenue from unauthorized access or distribution. By embedding each copy of content with a unique identifier. LeakShield can then trace the source of unauthorized copies and take action to protect the content. It's implemented as a software application or service and can be integrated into social media plataforms.",
       tech: [blueprintjs_logo, next_js_logo, reactjs_logo, ethers_logo, javascript_logo, bootstrap_logo, css_logo, html5_logo],
       techString: ["blueprintjs_logo", "next_js_logo", "reactjs_logo", "ethers_logo", "javascript_logo", "bootstrap_logo", "css_logo", "html5_logo"],
-      github: "https://github.com/mateo-covacho/portfolio-mk2",
+      github: "https://github.com/mateocovacho/leak-shield",
       tags: ["Frontend design"],
       status: "Paused",
     },
